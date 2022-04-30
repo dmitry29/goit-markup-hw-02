@@ -12,62 +12,68 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>homework-1</title>
+    <title>goit-markup-hw-01</title>
   </head>
   <body class="body">
-    <!--шапка сайта-->
-    <header class="header">
+    <!--header-box-->
+    <header>
+      <span class="logo">Web<span class="logo-text">Studio</span></span>
       <nav>
-        <a href=""><img src="./images/WebStudio.jpg" alt="WebStudio" /></a>
         <ul>
           <li>
-            <a href="./index.html" class="button-filter-studio">студия</a>
+            <a href="./index.html" class="nav-button">студия</a>
           </li>
           <li><a href="./portfolio.html">портфолио</a></li>
           <li><a href="">контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com" class="filter-mail">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="filter-phone">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="filter-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="filter-phone">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
-    <!--контент страницы-->
+    <!--main-box-->
 
     <main>
-      <section class="box-main">
-        <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+        <button class="btn-hero" type="button">Заказать услугу</button>
       </section>
 
       <section>
-        <h2>Наши особенности</h2>
+        <!--<h2>Наши особенности</h2>-->
         <ul>
           <li>
-            <h3>внимание к деталям</h3>
-            <p>
+            <h3 class="our-features">внимание к деталям</h3>
+            <p class="our-features-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>пунктуальность</h3>
-            <p>
+            <h3 class="our-features">пунктуальность</h3>
+            <p class="our-features-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>планирование</h3>
-            <p>
+            <h3 class="our-features">планирование</h3>
+            <p class="our-features-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>современные технологии</h3>
-            <p>
+            <h3 class="our-features">современные технологии</h3>
+            <p class="our-features-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -76,7 +82,7 @@
       </section>
       <!--работы команды-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="specification">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -106,27 +112,27 @@
       </section>
       <!--наша команда-->
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="specification">Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/img(3).jpg" alt="" width="100" />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="eng">Product Designer</p>
+            <img class="team-card" src="./images/img(3).jpg" alt="" />
+            <h3 class="name-team-card">Игорь Демьяненко</h3>
+            <p class="specification-team-card">Product Designer</p>
           </li>
           <li>
-            <img src="./images/img(4).jpg" alt="" width="100" />
-            <h3>Ольга Репина</h3>
-            <p lang="eng">Frontend Developer</p>
+            <img class="team-card" src="./images/img(4).jpg" alt="" />
+            <h3 class="name-team-card">Ольга Репина</h3>
+            <p class="specification-team-card">Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/img(5).jpg" alt="" width="100" />
-            <h3>Николай Тарасов</h3>
-            <p lang="eng">Marketing</p>
+            <img class="team-card" src="./images/img(5).jpg" alt="" />
+            <h3 class="name-team-card">Николай Тарасов</h3>
+            <p class="specification-team-card">Marketing</p>
           </li>
           <li>
-            <img src="./images/img(6).jpg" alt="" width="100" />
-            <h3>Михаил Ермаков</h3>
-            <p lang="eng">UI Designer</p>
+            <img class="team-card" src="./images/img(6).jpg" alt="" />
+            <h3 class="name-team-card">Михаил Ермаков</h3>
+            <p class="specification-team-card">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -134,9 +140,9 @@
 
     <!--подвал страницы-->
 
-    <footer class="footer-background">
-      <a href=""><img src="./images/WebStudio.jpg" alt="logo" /></a>
-      <address class="address-line">
+    <footer class="footer-bg">
+      <h4 class="logo">Web<span class="logo-text-footer">Studio</span></h4>
+      <address class="address">
         г.Киев, пр-т Леси Украинки, 26
         <ul>
           <li>
