@@ -5,9 +5,8 @@
   background: #ffffff;
 }
 
-a:hover {
-  color: rgb(17, 237, 61);
-  background: rgb(77, 16, 143);
+ul {
+  list-style-type: none;
 }
 
 /*logo*/
@@ -16,55 +15,82 @@ a:hover {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   font-family: "Raleway";
-  font-style: normal;
+  
 }
 
 .logo-text {
   color: black;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   font-family: "Raleway";
-  font-style: normal;
+  
 }
 
 .logo-text-footer {
   color: rgb(239, 246, 247);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   font-family: "Raleway";
-  font-style: normal;
+  
 }
 
 /*navigation block*/
 
 .nav-button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #2196f3;
+  line-height: 1.14;
+  color: #a9cfee;
+  text-decoration: none;
+
 }
 
 .filter-mail {
-  font-style: normal;
-  font-weight: 500;
+font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+  line-height: 1.14;
+  color: #757575;
+  text-decoration: none;
+}
+.filter-mail:hover,
+.filter-mail:focus,
+.filter-phone:hover,
+.filter-phone:focus {
+  color:#2196f3;
+}
+
+
+
+
+.btn {
+  background-color: var(--background-team-color);
+  cursor: pointer;
+  color: var(--color-h2-h3);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn:focus,
+.btn:hover {
+
+    color: #FFFFFF;
+    background-color: #2196f3;
 }
 
 .filter-phone {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #757575;
+  text-decoration: none;
 }
 
 /*hero block*/
@@ -75,14 +101,13 @@ a:hover {
   left: 0px;
   top: 200px;
   background: #2f303a;
-  
+  text-align: center;
 }
 
 .hero-text {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 80px;
+  line-height: 1.81;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -90,12 +115,11 @@ a:hover {
 
 .btn-hero {
   width: 200px;
-  height: 25px;
-  left: 700px;
-  top: 430px;
+  height: 30px;
+  left: 0px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(245, 240, 240, 0.915);
-  border-radius: 4px;
+  
+ 
   
 }
 
@@ -106,32 +130,31 @@ a:hover {
   height: 16px;
   left: 215px;
   top: 774px;
-
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: #212121;
 }
 
 .our-features-description {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.14;
   color: #757575;
 }
 
 /*our team and specification block*/
 
 .specification {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: 0px;
+  line-height: 1.16;
   color: #212121;
+}
+
+.team{
+  background: #F5F4FA;
 }
 
 .team-card {
@@ -140,24 +163,21 @@ a:hover {
 }
 
 .name-team-card {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
 .specification-team-card {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
+
 /*footer block*/
 
 .footer-bg {
@@ -172,60 +192,66 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: #ffffff;
 }
 
 .footer-mail,
 .footer-phone {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
 /*portfolio filter block */
 
-.button-line-active {
+.link-line-active {
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
   cursor: pointer;
   background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  
 }
 
-.button-line-active-text {
-  font-style: normal;
-  font-weight: 500;
+.link-line-active:hover {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  cursor: pointer;
+  background: #3f24d7;
+ 
+}
+
+.link-line-active-text {
+ font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
+  line-height: 1.62;
   color: #ffffff;
 }
 
-.button-line-text {
-  font-style: normal;
+
+
+.link-line-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.62;
   color: #212121;
 }
 
-.button-line {
+.link-line {
   width: 125px;
   height: 38px;
   left: 0px;
   top: 174px;
   background: #f5f4fa;
-  border-radius: 4px;
+  
 }
+
+
 
 .projects {
   width: 370px;
@@ -235,17 +261,15 @@ a:hover {
 }
 
 .projects-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   color: #212121;
 }
 
 .projects-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   color: #757575;
 }
